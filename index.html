@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="CSS/style.css" />
+
+    <!-- Font Rubik -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="hero-page">
+        <div class="container">
+          <div class="hero-page__sub-container grid">
+            <div class="mobile__view">
+              <div class="mobile__container">
+                <div class="mobile__header">
+                  <div class="mobile__sub-header flex">
+                    <span class="mobile__sub-header--upperbox"></span>
+                    <ion-icon
+                      name="chevron-back-outline"
+                      class="icon"
+                    ></ion-icon>
+
+                    <div class="mobile__img-avatar">
+                      <img src="images/avatar.jpg" alt="Samuel Green" />
+                    </div>
+
+                    <div class="user-detail grid">
+                      <span>Samuel Green</span>
+                      <small>Available to Walk</small>
+                    </div>
+
+                    <ion-icon
+                      name="ellipsis-vertical-outline"
+                      class="icon"
+                    ></ion-icon>
+                  </div>
+                </div>
+
+                <div class="mobile__messages grid">
+                  <p class="senders">
+                    That sounds great. I'd be happy to discuss more.
+                  </p>
+
+                  <p class="senders mg-bottom-small">
+                    Could you send over some pictures of your dog. please?
+                  </p>
+
+                  <div class="dog__img flex">
+                    <img src="images/dog-image-1.jpg" alt="Dog 1" />
+                    <img src="images/dog-image-2.jpg" alt="Dog 2" />
+                    <img src="images/dog-image-3.jpg" alt="Dog 3" />
+                  </div>
+
+                  <p class="receivers">
+                    Here are a few pictures. She's a happy girl.
+                  </p>
+                  <p class="receivers mg-bottom-small">Can you make it?</p>
+
+                  <p class="senders">
+                    She looks so happy. The time we discussed works. How long
+                    shall I take her out for?
+                  </p>
+
+                  <div class="payment flex">
+                    <ion-icon name="ellipse-outline" class="circle"></ion-icon>
+                    <p>30 minute Walk</p>
+                    <span>$29</span>
+                  </div>
+
+                  <div class="payment flex mg-bottom-small">
+                    <ion-icon name="ellipse-outline" class="circle"></ion-icon>
+                    <p>1 hour Walk</p>
+                    <span>$49</span>
+                  </div>
+
+                  <div class="mobile__send-message flex">
+                    <input
+                      type="text"
+                      placeholder="Type a message..."
+                      readonly
+                    />
+                    <div class="send">
+                      <ion-icon
+                        name="chevron-forward-outline"
+                        class="send__arrow"
+                      ></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-page__text grid">
+              <h1 class="primary-heading">Simple booking</h1>
+              <p class="para">
+                Stay in touch with our dog walkers through the chat interface.
+                This makes it easy to discuss arrangements and make bookings.
+                Once the walk has been completed you can rate your walker and
+                book again all through the chat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+</html>
