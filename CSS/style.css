@@ -13,7 +13,8 @@ img {
 
 input,
 textarea,
-label {
+label,
+select {
   font: inherit;
   background: none;
   border: none;
